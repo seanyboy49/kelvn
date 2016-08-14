@@ -25,6 +25,7 @@ GEM
       rack-test (>= 0.5.4)
       xpath (~> 2.0)
     diff-lcs (1.2.5)
+    dotenv (2.1.1)
     factory_girl (4.5.0)
       activesupport (>= 3.0.0)
     faker (1.4.3)
@@ -92,6 +93,7 @@ DEPENDENCIES
   activesupport (~> 4.2.0)
   bcrypt
   capybara
+  dotenv
   factory_girl
   faker
   pg

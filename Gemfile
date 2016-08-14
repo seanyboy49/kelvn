@@ -29,3 +29,4 @@ end
 
 # API gems 
 gem 'twilio-ruby'
+gem 'dotenv'
