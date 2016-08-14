@@ -26,3 +26,6 @@ group :test, :development do
   gem 'factory_girl'
   gem 'faker'
 end
+
+# API gems 
+gem 'twilio-ruby'
