@@ -23,11 +23,11 @@ my_number = ENV['TWILIO_NUMBER']
 	@client = Twilio::REST::Client.new sid, auth_token
 
 	 ## Logic
-	 def self.send_message
+	 def self.send_message(message)
 		@client.account.messages.create({
 			:from => +16506678264, 
 			:to => 4157303524, 
-			:body => "Happy birthday Kelvin"  
+			:body => message 
 		}) 
 	end
 end
