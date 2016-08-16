@@ -1,0 +1,9 @@
+body {
+	background-image: url(../../images/kelvn-background-3.png)
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: top center !important;
+	background-repeat: no-repeat !important;
+	background-attachment: fixed;
+}
