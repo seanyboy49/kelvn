@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- 
-    normalize.css removes cross-browser differences in defaults, e.g.,
-    differences in how form elements appear between Firefox and IE
-    See: http://necolas.github.com/normalize.css/
-  -->
+<meta charset="UTF-8">
+ 
+<!-- If IE use the latest rendering engine -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+<!-- Set the page to the width of the device and set the zoon level -->
+<meta name="viewport" content="width = device-width, initial-scale = 1">
+
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/normalize.css">
-  <!--
-    application.css is where you put your styles
-  -->
   <link rel="stylesheet" href="/css/application.css">
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="/js/application.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
 
   <title></title>
 </head>
@@ -21,3 +25,4 @@
   <%= yield %>
 </body>
 </html>
+

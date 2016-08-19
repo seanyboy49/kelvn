@@ -1,9 +1,24 @@
 body {
+	padding-left: 3%;
 	background-image: url(../../images/kelvn-background-3.png)
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: top center !important;
 	background-repeat: no-repeat !important;
-	background-attachment: fixed;
+	background-attachment: ;
+}
+
+#kelvn-logo {
+	position: absolute;
+	left: 55%;
+	bottom: 5%;
+	width: 40%;
+	height: auto;
+}
+
+.jumbotron{
+    background-color:#337ab7;
+    color:white;
+    width: 40%;
 }
