@@ -1,24 +1,52 @@
 body {
-	padding-left: 3%;
-	background-image: url(../../images/kelvn-background-3.png)
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: top center !important;
+	background-image: url('../images/kelvn-background-4.png');
+	background-position: center !important;
 	background-repeat: no-repeat !important;
-	background-attachment: ;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+}
+
+h1 {
+	margin-left: 10px;
 }
 
 #kelvn-logo {
 	position: absolute;
 	left: 55%;
-	bottom: 5%;
+	bottom: 2%;
 	width: 40%;
 	height: auto;
 }
 
-.jumbotron{
+#details{
+		margin-left: 10px;
     background-color:#337ab7;
     color:white;
-    width: 40%;
+		padding: 2px 0 2px 0;
+    width: 512px;
+		display: inline-block;
+		text-align: center;
+}
+
+#text-kelvin {
+	margin-bottom: 20px;
+	margin-left: 13%;
+}
+
+#text-kelvin button{
+	margin-left: 40%;
+	width: 100%;
+}
+@media only screen and (max-width: 767px) {
+	h1 {
+		margin: auto;
+		width: 100px;
+	}
+	#kelvn-logo {
+		bottom: 2%;
+		right: 30%;
+		position: absolute;
+		height: auto;
+	}
 }
