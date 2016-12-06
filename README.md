@@ -14,6 +14,7 @@ $ git clone https://github.com/seanyboy49/kelvn
 
 ```
 Then run the following commands:
+
 1.  `bundle install`
 2.  `be shotgun`
 
